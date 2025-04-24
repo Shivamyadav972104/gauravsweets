@@ -1,1 +1,46 @@
-1
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AeroLink IT Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>AeroLink IT Solutions</h1>
+        <p>Innovative IT Services for Your Business</p>
+    </header>
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section id="services">
+            <h2>Our Services</h2>
+            <p>We provide software solutions, cloud services, and IT consulting.</p>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Your trusted partner in IT innovation.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="/submit" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 AeroLink IT Solutions</p>
+    </footer>
+</body>
+</html>
+
